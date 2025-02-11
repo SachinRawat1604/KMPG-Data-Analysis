@@ -52,41 +52,60 @@ This project focuses on performing data analysis on the KPMG dataset and buildin
 
 - Install required Python libraries:
 
-- pip install pandas numpy matplotlib seaborn openpyxl
+pip install pandas numpy matplotlib seaborn openpyxl
 
-- Open KPMG.ipynb in Jupyter Notebook and run the analysis.
+Open KPMG.ipynb in Jupyter Notebook and run the analysis.
 
-- Use Dashboard.pbix to open the Power BI dashboard for visualization.
+Use Dashboard.pbix to open the Power BI dashboard for visualization.
 
 # Data Analysis Steps
 
-  # Data Loading: 
+ ## Data Loading: 
+  
   - Reads multiple sheets from the KPMG_VI_New_raw_data_update_final.xlsx file using pandas.
+  
   - Sheets include Transactions, CustomerDemographic, NewCustomerList, and CustomerAddress.
   
-  # Data Exploration:
+  ## Data Exploration:
+  
   - Displays the first few rows of each dataset.
+  
   - Checks for missing values and data types.
   
-  # Data Cleaning & Preprocessing:
+  ## Data Cleaning & Preprocessing:
+  
   - Handles missing values.
+  
   - Converts data types where necessary.
+  
   - Merges datasets to create a unified analysis-ready dataset.
 
-  # Exploratory Data Analysis (EDA):
+  ## Exploratory Data Analysis (EDA):
+  
   - Generates summary statistics.
+  
   - Performs visualizations to understand trends in transactions and customer behavior.
 
-  # Dashboard Development:
+  ## Dashboard Development:
+  
   - Prepares processed data for visualization in Power BI.
+  
   - Key Insights and Findings
+  
   - Customer segmentation based on demographics and transactions.
+  
   - Revenue trends and customer purchasing behavior.
+  
   - Identification of potential high-value customers.
+  
   - Business recommendations based on data insights.
 
 # Future Enhancements
 
+
 - Implement predictive analytics using machine learning models.
+
 - Enhance dashboard interactivity and usability.
+
 - Automate data updates and report generation
+
