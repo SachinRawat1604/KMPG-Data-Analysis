@@ -1,30 +1,30 @@
-KPMG Data Analysis and Dashboard Project
+# KPMG Data Analysis and Dashboard Project
 
-Project Overview
+# Project Overview
 
 This project focuses on performing data analysis on the KPMG dataset and building a dashboard to gain meaningful insights. The goal is to apply data analysis concepts to solve real-world business problems and improve decision-making. The project is designed to enhance data interpretation skills and prepare for machine learning roles by understanding data processing and visualization techniques.
 
-Project Objectives
+# Project Objectives
 
-Perform exploratory data analysis (EDA) on the KPMG dataset.
+- Perform exploratory data analysis (EDA) on the KPMG dataset.
 
-Clean and preprocess the raw data.
+- Clean and preprocess the raw data.
 
-Extract meaningful insights through visualizations.
+- Extract meaningful insights through visualizations.
 
-Build an interactive dashboard for business decision-making.
+- Build an interactive dashboard for business decision-making.
 
-Present findings in a structured and professional manner.
+- Present findings in a structured and professional manner.
 
-Dataset Information
+# Dataset Information
 
-File: KPMG_VI_New_raw_data_update_final.xlsx
+- File: KPMG_VI_New_raw_data_update_final.xlsx
 
-Contents: The dataset includes various business-related tables such as customer demographics, transactions, new customer lists, and customer address details.
+- Contents: The dataset includes various business-related tables such as customer demographics, transactions, new customer lists, and customer address details.
 
-Format: Excel (.xlsx)
+- Format: Excel (.xlsx)
 
-Files in the Repository
+# Files in the Repository
 
 KPMG.ipynb: Jupyter Notebook containing the data analysis and visualization process.
 
