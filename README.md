@@ -46,17 +46,15 @@ This project focuses on performing data analysis on the KPMG dataset and buildin
 
 # Installation and Setup
 
-- Clone the repository:
+1. Clone the repository:
+   **git clone <repository_link>**
 
-- git clone <repository_link>
+2. Install required Python libraries:
+   **pip install pandas numpy matplotlib seaborn openpyxl**
 
-- Install required Python libraries:
+3. Open KPMG.ipynb in Jupyter Notebook and run the analysis.
 
-pip install pandas numpy matplotlib seaborn openpyxl
-
-Open KPMG.ipynb in Jupyter Notebook and run the analysis.
-
-Use Dashboard.pbix to open the Power BI dashboard for visualization.
+4. Use Dashboard.pbix to open the Power BI dashboard for visualization.
 
 # Data Analysis Steps
 
