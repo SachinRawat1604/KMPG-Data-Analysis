@@ -26,84 +26,67 @@ This project focuses on performing data analysis on the KPMG dataset and buildin
 
 # Files in the Repository
 
-KPMG.ipynb: Jupyter Notebook containing the data analysis and visualization process.
+- KPMG.ipynb: Jupyter Notebook containing the data analysis and visualization process.
 
-Dashboard.pbix: Power BI dashboard visualizing the key insights.
+- Dashboard.pbix: Power BI dashboard visualizing the key insights.
 
-KPMG_VI_New_raw_data_update_final.xlsx: Raw dataset used for analysis.
+- KPMG_VI_New_raw_data_update_final.xlsx: Raw dataset used for analysis.
 
-README.md: Project documentation and instructions.
+- README.md: Project documentation and instructions.
 
-Tools and Technologies Used
+# Tools and Technologies Used
 
-Python: Pandas, NumPy, Matplotlib, Seaborn
+- Python: Pandas, NumPy, Matplotlib, Seaborn
 
-Jupyter Notebook: For data analysis and visualization
+- Jupyter Notebook: For data analysis and visualization
 
-Power BI: For dashboard creation
+- Power BI: For dashboard creation
 
-Excel: Data storage and preprocessing
+- Excel: Data storage and preprocessing
 
-Installation and Setup
+# Installation and Setup
 
-Clone the repository:
+- Clone the repository:
 
-git clone <repository_link>
+- git clone <repository_link>
 
-Install required Python libraries:
+- Install required Python libraries:
 
-pip install pandas numpy matplotlib seaborn openpyxl
+- pip install pandas numpy matplotlib seaborn openpyxl
 
-Open KPMG.ipynb in Jupyter Notebook and run the analysis.
+- Open KPMG.ipynb in Jupyter Notebook and run the analysis.
 
-Use Dashboard.pbix to open the Power BI dashboard for visualization.
+- Use Dashboard.pbix to open the Power BI dashboard for visualization.
 
-Data Analysis Steps
+# Data Analysis Steps
 
-Data Loading:
+  # Data Loading: 
+  - Reads multiple sheets from the KPMG_VI_New_raw_data_update_final.xlsx file using pandas.
+  - Sheets include Transactions, CustomerDemographic, NewCustomerList, and CustomerAddress.
+  
+  # Data Exploration:
+  - Displays the first few rows of each dataset.
+  - Checks for missing values and data types.
+  
+  # Data Cleaning & Preprocessing:
+  - Handles missing values.
+  - Converts data types where necessary.
+  - Merges datasets to create a unified analysis-ready dataset.
 
-Reads multiple sheets from the KPMG_VI_New_raw_data_update_final.xlsx file using pandas.
+  # Exploratory Data Analysis (EDA):
+  - Generates summary statistics.
+  - Performs visualizations to understand trends in transactions and customer behavior.
 
-Sheets include Transactions, CustomerDemographic, NewCustomerList, and CustomerAddress.
+  # Dashboard Development:
+  - Prepares processed data for visualization in Power BI.
+  - Key Insights and Findings
+  - Customer segmentation based on demographics and transactions.
+  - Revenue trends and customer purchasing behavior.
+  - Identification of potential high-value customers.
+  - Business recommendations based on data insights.
 
-Data Exploration:
+# Future Enhancements
 
-Displays the first few rows of each dataset.
-
-Checks for missing values and data types.
-
-Data Cleaning & Preprocessing:
-
-Handles missing values.
-
-Converts data types where necessary.
-
-Merges datasets to create a unified analysis-ready dataset.
-
-Exploratory Data Analysis (EDA):
-
-Generates summary statistics.
-
-Performs visualizations to understand trends in transactions and customer behavior.
-
-Dashboard Development:
-
-Prepares processed data for visualization in Power BI.
-
-Key Insights and Findings
-
-Customer segmentation based on demographics and transactions.
-
-Revenue trends and customer purchasing behavior.
-
-Identification of potential high-value customers.
-
-Business recommendations based on data insights.
-
-Future Enhancements
-
-Implement predictive analytics using machine learning models.
-
-Enhance dashboard interactivity and usability.
-
-Automate data updates and report generation
+- Implement predictive analytics using machine learning models.
+- Enhance dashboard interactivity and usability.
+- Automate data updates and report generation
