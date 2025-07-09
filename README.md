@@ -98,6 +98,10 @@ This project focuses on performing data analysis on the KPMG dataset and buildin
   
   - Business recommendations based on data insights.
 
+    ![Screenshot (14)](https://github.com/user-attachments/assets/72096bbc-c40b-462b-972e-0606c6192039)
+
+
+
 # Future Enhancements
 
 
