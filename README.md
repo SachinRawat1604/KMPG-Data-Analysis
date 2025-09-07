@@ -1,113 +1,84 @@
 # KPMG Data Analysis and Dashboard Project
 
-# Project Overview
+## Project Overview
+This project focuses on performing data analysis on the KPMG dataset and building a dashboard to gain meaningful insights. The goal is to apply data analysis concepts to solve real-world business problems using a provided dataset.
 
-This project focuses on performing data analysis on the KPMG dataset and building a dashboard to gain meaningful insights. The goal is to apply data analysis concepts to solve real-world business problems and improve decision-making. The project is designed to enhance data interpretation skills and prepare for machine learning roles by understanding data processing and visualization techniques.
-
-# Project Objectives
+## Project Objectives
 
 - Perform exploratory data analysis (EDA) on the KPMG dataset.
-
 - Clean and preprocess the raw data.
-
 - Extract meaningful insights through visualizations.
-
 - Build an interactive dashboard for business decision-making.
-
 - Present findings in a structured and professional manner.
 
-# Dataset Information
+## Dataset Information
 
-- File: KPMG_VI_New_raw_data_update_final.xlsx
+- **File:** KPMG_VI_New_raw_data_update_final.xlsx
+- **Contents:** Customer demographics, transactions, new customer lists, customer address details.
+- **Format:** Excel (.xlsx)
 
-- Contents: The dataset includes various business-related tables such as customer demographics, transactions, new customer lists, and customer address details.
+## Files in the Repository
 
-- Format: Excel (.xlsx)
+- `KPMG.ipynb`: Jupyter Notebook containing the data analysis and visualization process.
+- `Dashboard.pbix`: Power BI dashboard visualizing key insights.
+- `KPMG_VI_New_raw_data_update_final.xlsx`: Raw dataset used for analysis.
+- `README.md`: Project documentation and instructions.
 
-# Files in the Repository
+## Tools and Technologies Used
 
-- KPMG.ipynb: Jupyter Notebook containing the data analysis and visualization process.
+- **Python:** Pandas, NumPy, Matplotlib, Seaborn
+- **Jupyter Notebook:** For data analysis and visualization
+- **Power BI:** For dashboard creation
+- **Excel:** Data storage and preprocessing
 
-- Dashboard.pbix: Power BI dashboard visualizing the key insights.
-
-- KPMG_VI_New_raw_data_update_final.xlsx: Raw dataset used for analysis.
-
-- README.md: Project documentation and instructions.
-
-# Tools and Technologies Used
-
-- Python: Pandas, NumPy, Matplotlib, Seaborn
-
-- Jupyter Notebook: For data analysis and visualization
-
-- Power BI: For dashboard creation
-
-- Excel: Data storage and preprocessing
-
-# Installation and Setup
+## Installation and Setup
 
 1. Clone the repository:
-   **git clone <repository_link>**
+   ```
+   git clone https://github.com/SachinRawat1604/KMPG-Data-Analysis.git
+   cd KMPG-Data-Analysis
+   ```
 
 2. Install required Python libraries:
-   **pip install pandas numpy matplotlib seaborn openpyxl**
+   ```
+   pip install pandas numpy matplotlib seaborn openpyxl
+   ```
 
-3. Open KPMG.ipynb in Jupyter Notebook and run the analysis.
+3. Open `KPMG.ipynb` in Jupyter Notebook and run the analysis.
 
-4. Use Dashboard.pbix to open the Power BI dashboard for visualization.
+4. Use `Dashboard.pbix` to open the Power BI dashboard for visualization.
 
-# Data Analysis Steps
+## Data Analysis Steps
 
- ## Data Loading: 
-  
-  - Reads multiple sheets from the KPMG_VI_New_raw_data_update_final.xlsx file using pandas.
-  
-  - Sheets include Transactions, CustomerDemographic, NewCustomerList, and CustomerAddress.
-  
-  ## Data Exploration:
-  
-  - Displays the first few rows of each dataset.
-  
-  - Checks for missing values and data types.
-  
-  ## Data Cleaning & Preprocessing:
-  
-  - Handles missing values.
-  
-  - Converts data types where necessary.
-  
-  - Merges datasets to create a unified analysis-ready dataset.
+### Data Loading
+- Reads multiple sheets from the Excel file using pandas.
 
-  ## Exploratory Data Analysis (EDA):
-  
-  - Generates summary statistics.
-  
-  - Performs visualizations to understand trends in transactions and customer behavior.
+### Data Exploration
+- Displays first few rows.
+- Checks for missing values and data types.
 
-  ## Dashboard Development:
-  
-  - Prepares processed data for visualization in Power BI.
-  
-  - Key Insights and Findings
-  
-  - Customer segmentation based on demographics and transactions.
-  
-  - Revenue trends and customer purchasing behavior.
-  
-  - Identification of potential high-value customers.
-  
-  - Business recommendations based on data insights.
+### Data Cleaning & Preprocessing
+- Handles missing values.
+- Converts data types.
+- Merges datasets for unified analysis.
 
-    ![Screenshot (14)](https://github.com/user-attachments/assets/72096bbc-c40b-462b-972e-0606c6192039)
+### Exploratory Data Analysis (EDA)
+- Summary statistics.
+- Visualizations to understand trends in transactions and customer behavior.
 
+### Dashboard Development
+- Prepares data for Power BI.
+- Key insights: customer segmentation, revenue trends, high-value customer identification, business recommendations.
 
+## Screenshot
 
-# Future Enhancements
+![Dashboard Example](https://github.com/user-attachments/assets/72096bbc-c40b-462b-972e-0606c6192039)
 
+## Future Enhancements
 
 - Implement predictive analytics using machine learning models.
-
 - Enhance dashboard interactivity and usability.
+- Automate data updates and report generation.
 
-- Automate data updates and report generation
-
+## License
+This project is licensed under the MIT License.
